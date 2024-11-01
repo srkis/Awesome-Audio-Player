@@ -1,0 +1,179 @@
+
+.hero {
+	width: 730px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+#wavesurfer1SongImg {
+	width: 120px;
+	height: 120px;
+}
+
+.sticky {
+	opacity: 1;
+    /* height: 270px; */
+    width: 480px;
+    bottom: 0px;
+    right: 10px;
+    z-index: 2147483647;
+    position: fixed;
+    transition: right 100ms ease-in-out 0s;
+    /* top: 100%; */
+
+}
+
+.music {
+	width: 100%;
+/*	padding: 30px;*/
+	box-sizing: border-box;
+	background: #c9a3c0;
+	display: flex;
+	position: relative;
+}
+
+.info {
+	color: #000;
+	margin-left: 30px;
+	flex: 1;
+	position: relative;
+    font-weight: bold;
+}
+
+.info p {
+	font-size: 16px;
+	margin: 10px 0 20px;
+}
+
+.info h3 {
+	color: #fff;
+	font-size: 25px;
+}
+
+.wavesurfer_player_1_controls {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.wavesurfer_player_1_controls img {
+	width: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.songTime {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#time-current{
+	background: rgba(21, 21, 21, 0.7);
+    color: #eee;
+    position: absolute;
+    bottom: auto;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 25px;
+    bottom: auto;/
+    width: auto;
+    opacity: 1;
+    pointer-events: none;
+    height: auto;
+    padding: 5px 8px;
+    line-height: 1;
+    font-size: 11px;
+}
+
+#time-total{
+	background: rgba(21, 21, 21, 0.7);
+    color: #eee;
+    position: absolute;
+    bottom: auto;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    right: 10px;
+    top: 25px;
+    z-index: 4;
+    opacity: 1;
+    pointer-events: none;
+    height: auto;
+    padding: 5px 8px;
+    line-height: 1;
+    font-size: 11px;
+}
+
+.startTime {
+	justify-content: flex-start;
+    display: flex;
+   
+}
+
+.endTime{
+	justify-content: flex-end;
+    display: flex;
+}
+
+#multiple_songs_warning {
+        margin-top: 40px;
+    color: orangered;
+}
+
+.hide {
+        display: none !important;
+}
+
+#downloadSong{
+    position: absolute;
+    bottom: auto;
+    right: 0px;
+}
+
+#downloadSong a {
+    background-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
