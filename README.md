@@ -1,4 +1,4 @@
-=== Awesome Audio Player ===
+=== Awesome Audio Player Plugin ===
 Contributors: Srki
 Tags: audio player, video player, playlist, music, lyrics, Google IMA ads
 Donate link: https://www.buymeacoffee.com/srki
